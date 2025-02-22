@@ -1,183 +1,1081 @@
 <!DOCTYPE html>
-	<html lang="en">
+<html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=
-		, initial-scale=1.0">
-		<title>Project 01 | HTML~5 | CSS~3 </title>
-
-		<!-- Font Awesome CDN -->
-
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
-		font-awesome/6.7.2/css/all.min.css" referrerpolicy="no-referrer"/>	
-
-		<!-- remix icon CDN -->
-
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/
-		libs/remixicon/4.6.0/remixicon.css" referrerpolicy="no-referrer"/>
-
-		<!-- Slider CSS -->
-
-		<link rel="stylesheet" href="css/slider.css">
-
-		<!-- Main CSS File -->
-
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-</head>
-<body>
-
-
-		<!-- Start Header-->
-
-		<nav class="premium-nav">
-			<div class="nav-container">
-				<a href="#" class="nav-logo">
-
-					<img width="150px" height="50px" src="img/01.png">
-
-					<!-- <span class="logo-text">Premium</span> -->
-					
-					<div class="logo-shine"></div>
-				</a>
-				
-				<div class="nav-links">
-					<a href="#" class="nav-link active">
-						<i class="ri-home-5-line"></i>
-						<span>Home</span>
-					</a>
-					<a href="#" class="nav-link">
-						<i class="ri-information-line"></i>
-						<span>About</span>
-					</a>
-					<a href="#" class="nav-link">
-						<i class="ri-stack-line"></i>
-						<span>Services</span>
-					</a>
-					<a href="#" class="nav-link">
-						<i class="ri-mail-line"></i>
-						<span>Contact</span>
-					</a>
-				</div>
-	
-				<div class="nav-actions">
-					<button class="theme-toggle" aria-label="Toggle theme">
-						<i class="ri-sun-line sun-icon"></i>
-						<i class="ri-moon-line moon-icon"></i>
-					</button>
-					<button class="mobile-menu" aria-label="Menu">
-						<i class="ri-menu-line"></i>
-					</button>
-				</div>
-			</div>
-		</nav>
-
-		<!-- End Header-->
-
-
-		<!-- Start Slider Section -->
-
-			<div class="slider-container">
-				<div class="slide fade">
-				<img class="slide-image" src="https://images.unsplash.com/photo-1682685796063-d2604827f7b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80">
-				<div class="slide-content">
-					<h3 class="slide-title">Welcome To Our Genius World</h3>
-					<p class="slide-desc">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
-					</p>
-					<a href="" class="slide-btn">
-					About US <ion-icon name="arrow-forward-circle"></ion-icon>
-					</a>
-				</div>
-				<div class="slide-number-container">
-					<p class="slider-number">01</p>
-					<hr>
-					<p class="slider-number">03</p>
-				</div>
-				</div>
-			
-				<div class="slide fade">
-				<img class="slide-image" src="https://images.unsplash.com/photo-1682687220566-5599dbbebf11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1075&q=80">
-				<div class="slide-content">
-					<h3 class="slide-title">Welcome To Our Genius World</h3>
-					<p class="slide-desc">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
-					</p>
-					<a href="" class="slide-btn">
-					About US <ion-icon name="arrow-forward-circle"></ion-icon>
-					</a>
-				</div>
-				<div class="slide-number-container">
-					<p class="slider-number">02</p>
-					<hr>
-					<p class="slider-number">03</p>
-				</div>
-				</div>
-			
-				<div class="slide fade">
-				<img class="slide-image" src="https://images.unsplash.com/photo-1682685797828-d3b2561deef4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80">
-				<div class="slide-content">
-					<h3 class="slide-title">Welcome To Our Genius World</h3>
-					<p class="slide-desc">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
-					</p>
-					<a href="" class="slide-btn">
-					About US <ion-icon name="arrow-forward-circle"></ion-icon>
-					</a>
-				</div>
-				<div class="slide-number-container">
-					<p class="slider-number">03</p>
-					<hr>
-					<p class="slider-number">03</p>
-				</div>
-				</div>
-			
-				<!-- Next and previous buttons -->
-				<div class="slider-nav">
-				<a class="slider-nav-btn" onclick="plusSlides(-1)">
-					<ion-icon name="caret-back-outline"></ion-icon>
-				</a>
-				<a class="slider-nav-btn" onclick="plusSlides(1)">
-					<ion-icon name="caret-forward-outline"></ion-icon>
-				</a>
-				</div>
-			
-				<!-- The dots/circles -->
-				<div class="dot-container">
-				<span class="dot" onclick="currentSlide(1)"></span>
-				<span class="dot" onclick="currentSlide(2)"></span>
-				<span class="dot" onclick="currentSlide(3)"></span>
-				</div>
-			</div>
-			
-			
-
-		<!-- End Slider Section -->
-
-
-
-
-
-
-
-
-		<!-- Main JS-->
-		<script src="js/main.js"></script>
-
-		<!-- Slider JS-->
-	
-		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-		<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Learn BS ~ Class 12 BS Project </title>
 		
+		<!-- BS CSS CDN -->
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@
+    5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwosome CDN -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" referrerpolicy="no-referrer" />
+
+
+		<!-- Main CSS -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	</head>
+  <body>
+
+        <!-- Start Header -->
+
+
+      <link rel="stylesheet" type="text/css" href="css/slider.css"></link>
+
+        <nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
+          <div class="container">
+            <img src="img/02.png" height="50px" alt=""
+              loading="lazy" />
+            <button class="navbar-toggler ps-0" type="button" data-mdb-collapse-init data-mdb-target="#navbarExample01"
+              aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon d-flex justify-content-start align-items-center"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" aria-current="page" href="#news">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#pets">About US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#adoptions">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#foundation">Gallery</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#help">How can I help?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#about">About us</a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                </li>
+              </ul>
+
+              <ul class="navbar-nav flex-row">
+                <li class="nav-item">
+                  <a class="nav-link px-2" href="#!">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-2" href="#!">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-2" href="#!">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- End Header -->
+
+        <!-- Start Slider -->
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img style="height: 700px;" src="img/13.jpeg" class="d-block w-100" alt="Genius IT">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Genius IT</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+             450</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img style="height: 700px;" src="img/11.jpeg" class="d-block w-100" alt="Genius IT">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Genius IT</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+             450</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img style="height: 700px;" src="img/10.jpeg" class="d-block w-100" alt="Genius IT">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Genius IT</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+             450</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- End Slider -->
+
+        <!-- Start About -->
+
+        <section class="py-3 py-md-5">
+          <div class="container">
+            <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+              <div class="col-12 col-lg-6 col-xl-5">
+                <img class="img-fluid rounded" loading="lazy" src="img/ab01.jpg" alt="About 1">
+              </div>
+              <div class="col-12 col-lg-6 col-xl-7">
+                <div class="row justify-content-xl-center">
+                  <div class="col-12 col-xl-11">
+                    <h2 class="mb-3">Who Are We?</h2>
+                    <p class="lead fs-4 text-secondary mb-3">We help people to build incredible brands and superior products. Our perspective is to furnish outstanding captivating services.</p>
+                    <p class="mb-5">We are a fast-growing company, but we have never lost sight of our core values. We believe in collaboration, innovation, and customer satisfaction. We are always looking for new ways to improve our products and services.</p>
+                    <div class="row gy-4 gy-md-0 gx-xxl-5X">
+                      <div class="col-12 col-md-6">
+                        <div class="d-flex">
+                          <div class="me-4 text-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                              <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
+                            </svg>
+                          </div>
+                          <div>
+                            <h2 class="h4 mb-3">Versatile Brand</h2>
+                            <p class="text-secondary mb-0">We are crafting a digital method that subsists life across all mediums.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <div class="d-flex">
+                          <div class="me-4 text-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
+                              <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
+                            </svg>
+                          </div>
+                          <div>
+                            <h2 class="h4 mb-3">Digital Agency</h2>
+                            <p class="text-secondary mb-0">We believe in innovation by merging primary with elaborate ideas.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- End About -->
+
+
+        <!-- Start Service -->
+
+        <section class="bg-light py-3 py-md-5 py-xl-8">
+          <div class="container">
+            <div class="row justify-content-md-center">
+              <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+                <h2 class="mb-4 display-5 text-center">Our Services</h2>
+                <p class="text-secondary mb-5 text-center lead fs-4">Our comprehensive range of services caters to cyclists of all levels, whether you're a casual rider, a commuter, or a seasoned enthusiast.</p>
+                <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="container-fluid">
+                  <div class="row gy-3 gy-md-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card border-dark">
+                        <div class="card-body text-center p-4 p-xxl-5">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-box-fill text-primary mb-4" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M15.528 2.973a.75.75 0 0 1 .472.696v8.662a.75.75 0 0 1-.472.696l-7.25 2.9a.75.75 0 0 1-.557 0l-7.25-2.9A.75.75 0 0 1 0 12.331V3.669a.75.75 0 0 1 .471-.696L7.443.184l.004-.001.274-.11a.75.75 0 0 1 .558 0l.274.11.004.001zm-1.374.527L8 5.962 1.846 3.5 1 3.839v.4l6.5 2.6v7.922l.5.2.5-.2V6.84l6.5-2.6v-.4l-.846-.339Z" />
+                          </svg>
+                          <h4 class="mb-4">Wheel Truing</h4>
+                          <p class="mb-4 text-secondary">We specialize in expert wheel truing services to ensure our customers' smooth, stable, and safe rides.</p>
+                          <a href="#!" class="btn btn-outline-primary bsb-btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card border-dark">
+                        <div class="card-body text-center p-4 p-xxl-5">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-capsule text-primary mb-4" viewBox="0 0 16 16">
+                            <path d="M1.828 8.9 8.9 1.827a4 4 0 1 1 5.657 5.657l-7.07 7.071A4 4 0 1 1 1.827 8.9Zm9.128.771 2.893-2.893a3 3 0 1 0-4.243-4.242L6.713 5.429z" />
+                          </svg>
+                          <h4 class="mb-4">Brake Adjustment</h4>
+                          <p class="mb-4 text-secondary">We proudly offer specialized brake adjustment services tailored to enhance braking performance.</p>
+                          <a href="#!" class="btn btn-outline-primary bsb-btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card border-dark">
+                        <div class="card-body text-center p-4 p-xxl-5">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-clipboard-check-fill text-primary mb-4" viewBox="0 0 16 16">
+                            <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z" />
+                            <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708" />
+                          </svg>
+                          <h4 class="mb-4">Cassette Replacement</h4>
+                          <p class="mb-4 text-secondary">Our skilled technicians have extensive expertise in handling various bicycle drivetrain systems.</p>
+                          <a href="#!" class="btn btn-outline-primary bsb-btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card border-dark">
+                        <div class="card-body text-center p-4 p-xxl-5">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-diamond-half text-primary mb-4" viewBox="0 0 16 16">
+                            <path d="M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098zM8 .989c.127 0 .253.049.35.145l6.516 6.516a.495.495 0 0 1 0 .7L8.35 14.866a.5.5 0 0 1-.35.145z" />
+                          </svg>
+                          <h4 class="mb-4">Suspension Tuning</h4>
+                          <p class="mb-4 text-secondary">Our suspension tuning process begins with a complete assessment of your bike's current setup.</p>
+                          <a href="#!" class="btn btn-outline-primary bsb-btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card border-dark">
+                        <div class="card-body text-center p-4 p-xxl-5">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-eraser-fill text-primary mb-4" viewBox="0 0 16 16">
+                            <path d="M8.086 2.207a2 2 0 0 1 2.828 0l3.879 3.879a2 2 0 0 1 0 2.828l-5.5 5.5A2 2 0 0 1 7.879 15H5.12a2 2 0 0 1-1.414-.586l-2.5-2.5a2 2 0 0 1 0-2.828zm.66 11.34L3.453 8.254 1.914 9.793a1 1 0 0 0 0 1.414l2.5 2.5a1 1 0 0 0 .707.293H7.88a1 1 0 0 0 .707-.293z" />
+                          </svg>
+                          <h4 class="mb-4">Frame Alignment</h4>
+                          <p class="mb-4 text-secondary">Our bicycle workshop offers a technical frame alignment service to ensure the bike rides smoothly.</p>
+                          <a href="#!" class="btn btn-outline-primary bsb-btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card border-dark">
+                        <div class="card-body text-center p-4 p-xxl-5">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-front text-primary mb-4" viewBox="0 0 16 16">
+                            <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2zm5 10v2a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2v5a2 2 0 0 1-2 2z" />
+                          </svg>
+                          <h4 class="mb-4">Pedal Installation</h4>
+                          <p class="mb-4 text-secondary">Our pedal installation service includes testing to guarantee a secure fit and reliable performance.</p>
+                          <a href="#!" class="btn btn-outline-primary bsb-btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- End Service -->
+
+
+        <!-- Start Blog -->
+
+        <section class="bsb-blog-5 py-3 py-md-5 py-xl-8">
+          <div class="container">
+            <div class="row justify-content-md-center">
+              <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+                <h2 class="display-5 mb-4 mb-md-5 text-center">Latest Articles</h2>
+                <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+              </div>
+            </div>
+          </div>
+
+          <div class="container overflow-hidden">
+            <div class="row gy-4 gy-md-5 gx-xl-6 gy-xl-6 gx-xxl-9 gy-xxl-9">
+              <div class="col-12 col-lg-4">
+                <article>
+                  <div class="card border-0 bg-transparent">
+                    <figure class="card-img-top mb-4 overflow-hidden bsb-overlay-hover">
+                      <a href="#!">
+                        <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="img/a.jpg" alt="Living">
+                      </a>
+                      <figcaption>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-eye text-white bsb-hover-fadeInLeft" viewBox="0 0 16 16">
+                          <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                          <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                        </svg>
+                        <h4 class="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                      </figcaption>
+                    </figure>
+                    <div class="card-body m-0 p-0">
+                      <div class="entry-header mb-3">
+                        <ul class="entry-meta list-unstyled d-flex mb-3">
+                          <li>
+                            <a class="d-inline-flex px-2 py-1 link-primary text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-2 text-decoration-none fs-7" href="#!">Living</a>
+                          </li>
+                        </ul>
+                        <h2 class="card-title entry-title h4 m-0">
+                          <a class="link-dark text-decoration-none" href="#!">How to Use Facial Expressions in Public Speaking</a>
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="card-footer border-0 bg-transparent p-0 m-0">
+                      <ul class="entry-meta list-unstyled d-flex align-items-center m-0">
+                        <li>
+                          <a class="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                              <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                              <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                            </svg>
+                            <span class="ms-2 fs-7">11 Dec 2030</span>
+                          </a>
+                        </li>
+                        <li>
+                          <span class="px-3">&bull;</span>
+                        </li>
+                        <li>
+                          <a class="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
+                              <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                              <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z" />
+                            </svg>
+                            <span class="ms-2 fs-7">383</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-12 col-lg-4">
+                <article>
+                  <div class="card border-0 bg-transparent">
+                    <figure class="card-img-top mb-4 overflow-hidden bsb-overlay-hover">
+                      <a href="#!">
+                        <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="img/b.jpg" alt="Relationships">
+                      </a>
+                      <figcaption>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-eye text-white bsb-hover-fadeInLeft" viewBox="0 0 16 16">
+                          <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                          <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                        </svg>
+                        <h4 class="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                      </figcaption>
+                    </figure>
+                    <div class="card-body m-0 p-0">
+                      <div class="entry-header mb-3">
+                        <ul class="entry-meta list-unstyled d-flex mb-3">
+                          <li>
+                            <a class="d-inline-flex px-2 py-1 link-primary text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-2 text-decoration-none fs-7" href="#!">Relationships</a>
+                          </li>
+                        </ul>
+                        <h2 class="card-title entry-title h4 m-0">
+                          <a class="link-dark text-decoration-none" href="#!">Easy Ways to Provide Emotional Support for Your Partner</a>
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="card-footer border-0 bg-transparent p-0 m-0">
+                      <ul class="entry-meta list-unstyled d-flex align-items-center m-0">
+                        <li>
+                          <a class="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                              <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                              <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                            </svg>
+                            <span class="ms-2 fs-7">11 Aug 2030</span>
+                          </a>
+                        </li>
+                        <li>
+                          <span class="px-3">&bull;</span>
+                        </li>
+                        <li>
+                          <a class="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
+                              <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                              <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z" />
+                            </svg>
+                            <span class="ms-2 fs-7">59</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-12 col-lg-4">
+                <article>
+                  <div class="card border-0 bg-transparent">
+                    <figure class="card-img-top mb-4 overflow-hidden bsb-overlay-hover">
+                      <a href="#!">
+                        <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="img/c.jpg" alt="Career">
+                      </a>
+                      <figcaption>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-eye text-white bsb-hover-fadeInLeft" viewBox="0 0 16 16">
+                          <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                          <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                        </svg>
+                        <h4 class="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                      </figcaption>
+                    </figure>
+                    <div class="card-body m-0 p-0">
+                      <div class="entry-header mb-3">
+                        <ul class="entry-meta list-unstyled d-flex mb-3">
+                          <li>
+                            <a class="d-inline-flex px-2 py-1 link-primary text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-2 text-decoration-none fs-7" href="#!">Career</a>
+                          </li>
+                        </ul>
+                        <h2 class="card-title entry-title h4 m-0">
+                          <a class="link-dark text-decoration-none" href="#!">The State of Remote Work: Statistics, Benefits, and Trends</a>
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="card-footer border-0 bg-transparent p-0 m-0">
+                      <ul class="entry-meta list-unstyled d-flex align-items-center m-0">
+                        <li>
+                          <a class="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                              <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                              <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                            </svg>
+                            <span class="ms-2 fs-7">2 Apr 2030</span>
+                          </a>
+                        </li>
+                        <li>
+                          <span class="px-3">&bull;</span>
+                        </li>
+                        <li>
+                          <a class="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
+                              <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                              <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z" />
+                            </svg>
+                            <span class="ms-2 fs-7">236</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-12 col-lg-4">
+                <article>
+                  <div class="card border-0 bg-transparent">
+                    <figure class="card-img-top mb-4 overflow-hidden bsb-overlay-hover">
+                      <a href="#!">
+                        <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="img/d.jpg" alt="Data Science">
+                      </a>
+                      <figcaption>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-eye text-white bsb-hover-fadeInLeft" viewBox="0 0 16 16">
+                          <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                          <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                        </svg>
+                        <h4 class="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                      </figcaption>
+                    </figure>
+                    <div class="card-body m-0 p-0">
+                      <div class="entry-header mb-3">
+                        <ul class="entry-meta list-unstyled d-flex mb-3">
+                          <li>
+                            <a class="d-inline-flex px-2 py-1 link-primary text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-2 text-decoration-none fs-7" href="#!">Data Science</a>
+                          </li>
+                        </ul>
+                        <h2 class="card-title entry-title h4 m-0">
+                          <a class="link-dark text-decoration-none" href="#!">Advantages and Disadvantages of Artificial Intelligence</a>
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="card-footer border-0 bg-transparent p-0 m-0">
+                      <ul class="entry-meta list-unstyled d-flex align-items-center m-0">
+                        <li>
+                          <a class="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                              <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                              <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                            </svg>
+                            <span class="ms-2 fs-7">22 Feb 2030</span>
+                          </a>
+                        </li>
+                        <li>
+                          <span class="px-3">&bull;</span>
+                        </li>
+                        <li>
+                          <a class="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
+                              <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                              <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z" />
+                            </svg>
+                            <span class="ms-2 fs-7">593</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-12 col-lg-4">
+                <article>
+                  <div class="card border-0 bg-transparent">
+                    <figure class="card-img-top mb-4 overflow-hidden bsb-overlay-hover">
+                      <a href="#!">
+                        <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="img/e.jpg" alt="Finance">
+                      </a>
+                      <figcaption>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-eye text-white bsb-hover-fadeInLeft" viewBox="0 0 16 16">
+                          <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                          <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                        </svg>
+                        <h4 class="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                      </figcaption>
+                    </figure>
+                    <div class="card-body m-0 p-0">
+                      <div class="entry-header mb-3">
+                        <ul class="entry-meta list-unstyled d-flex mb-3">
+                          <li>
+                            <a class="d-inline-flex px-2 py-1 link-primary text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-2 text-decoration-none fs-7" href="#!">Finance</a>
+                          </li>
+                        </ul>
+                        <h2 class="card-title entry-title h4 m-0">
+                          <a class="link-dark text-decoration-none" href="#!">How Blockchain Can Incentivize Social Platform Revolution</a>
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="card-footer border-0 bg-transparent p-0 m-0">
+                      <ul class="entry-meta list-unstyled d-flex align-items-center m-0">
+                        <li>
+                          <a class="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                              <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                              <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                            </svg>
+                            <span class="ms-2 fs-7">7 Feb 2030</span>
+                          </a>
+                        </li>
+                        <li>
+                          <span class="px-3">&bull;</span>
+                        </li>
+                        <li>
+                          <a class="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
+                              <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                              <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z" />
+                            </svg>
+                            <span class="ms-2 fs-7">718</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-12 col-lg-4">
+                <article>
+                  <div class="card border-0 bg-transparent">
+                    <figure class="card-img-top mb-4 overflow-hidden bsb-overlay-hover">
+                      <a href="#!">
+                        <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="img/f.jpg" alt="Health">
+                      </a>
+                      <figcaption>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-eye text-white bsb-hover-fadeInLeft" viewBox="0 0 16 16">
+                          <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                          <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                        </svg>
+                        <h4 class="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                      </figcaption>
+                    </figure>
+                    <div class="card-body m-0 p-0">
+                      <div class="entry-header mb-3">
+                        <ul class="entry-meta list-unstyled d-flex mb-3">
+                          <li>
+                            <a class="d-inline-flex px-2 py-1 link-primary text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-2 text-decoration-none fs-7" href="#!">Health</a>
+                          </li>
+                        </ul>
+                        <h2 class="card-title entry-title h4 m-0">
+                          <a class="link-dark text-decoration-none" href="#!">15 Best Remedies To Lose Weight Naturally In Two Weeks</a>
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="card-footer border-0 bg-transparent p-0 m-0">
+                      <ul class="entry-meta list-unstyled d-flex align-items-center m-0">
+                        <li>
+                          <a class="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                              <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                              <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                            </svg>
+                            <span class="ms-2 fs-7">24 Jan 2030</span>
+                          </a>
+                        </li>
+                        <li>
+                          <span class="px-3">&bull;</span>
+                        </li>
+                        <li>
+                          <a class="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
+                              <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                              <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z" />
+                            </svg>
+                            <span class="ms-2 fs-7">383</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <a href="#!" class="btn bsb-btn-2xl btn-primary rounded-pill mt-5 mt-xl-10">All Articles</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- End Blog -->
+
+        <!-- Start Contact -->
+
+        <section class="bg-light py-3 py-md-5">
+          <div class="container">
+            <div class="row gy-3 gy-md-4 gy-lg-0 align-items-md-center">
+              <div class="col-12 col-lg-6">
+                <div class="row justify-content-xl-center">
+                  <div class="col-12 col-xl-11">
+                    <h2 class="h1 mb-3">Get in touch</h2>
+                    <p class="lead fs-4 text-secondary mb-5">We're always on the lookout to work with new clients. If you're interested in working with us, please get in touch in one of the following ways.</p>
+                    <div class="d-flex mb-5">
+                      <div class="me-4 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-geo" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z" />
+                        </svg>
+                      </div>
+                      <div>
+                        <h4 class="mb-3">Address</h4>
+                        <address class="mb-0 text-secondary">8014 Edith Blvd NE, Albuquerque, New York, United States</address>
+                      </div>
+                    </div>
+                    <div class="row mb-5">
+                      <div class="col-12 col-sm-6">
+                        <div class="d-flex mb-5 mb-sm-0">
+                          <div class="me-4 text-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telephone-outbound" viewBox="0 0 16 16">
+                              <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z" />
+                            </svg>
+                          </div>
+                          <div>
+                            <h4 class="mb-3">Phone</h4>
+                            <p class="mb-0">
+                              <a class="link-secondary text-decoration-none" href="tel:+15057922430">(505) 792-2430</a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6">
+                        <div class="d-flex mb-0">
+                          <div class="me-4 text-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                              <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z" />
+                              <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z" />
+                            </svg>
+                          </div>
+                          <div>
+                            <h4 class="mb-3">E-Mail</h4>
+                            <p class="mb-0">
+                              <a class="link-secondary text-decoration-none" href="mailto:demo@yourdomain.com">demo@yourdomain.com</a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex">
+                      <div class="me-4 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+                          <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z" />
+                          <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z" />
+                        </svg>
+                      </div>
+                      <div>
+                        <h4 class="mb-3">Opening Hours</h4>
+                        <div class="d-flex mb-1">
+                          <p class="text-secondary fw-bold mb-0 me-5">Mon - Fri</p>
+                          <p class="text-secondary mb-0">9am - 5pm</p>
+                        </div>
+                        <div class="d-flex">
+                          <p class="text-secondary fw-bold mb-0 me-5">Sat - Sun</p>
+                          <p class="text-secondary mb-0">9am - 2pm</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="bg-white border rounded shadow-sm overflow-hidden">
+
+                  <form action="#!">
+                    <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
+                      <div class="col-12">
+                        <label for="fullname" class="form-label">Full Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="fullname" name="fullname" value="" required>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                        <div class="input-group">
+                          <span class="input-group-text">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                            </svg>
+                          </span>
+                          <input type="email" class="form-control" id="email" name="email" value="" required>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <div class="input-group">
+                          <span class="input-group-text">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                              <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                            </svg>
+                          </span>
+                          <input type="tel" class="form-control" id="phone" name="phone" value="">
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <label for="subject" class="form-label">Subject <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="subject" name="subject" value="" required>
+                      </div>
+                      <div class="col-12">
+                        <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                      </div>
+                      <div class="col-12">
+                        <div class="d-grid">
+                          <button class="btn btn-primary btn-lg" type="submit">Send Message</button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Start Contact -->
+
+
+        <!-- Start Footer -->
+
+        <footer class="py-4 py-md-5 bg-black">
+
+          <!-- Logo & SM - Bootstrap Brain Component -->
+
+          <div>
+            <div class="container border-bottom border-dark pb-4">
+              <div class="row gy-3 align-items-sm-center">
+                <div class="col-12 col-sm-6">
+                  <div class="footer-logo-wrapper text-start">
+                    <a href="#!">
+                      <img style="height: 70px;" src="img/02.png" alt="Genius Logo" class="img-fluid">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="social-media-wrapper">
+                    <ul class="m-0 list-unstyled d-flex justify-content-sm-end gap-2">
+                      <li>
+                        <a href="#!" class="btn btn-outline-light bsb-btn-circle bsb-btn-circle">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-facebook text-lightx" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!" class="btn btn-outline-light bsb-btn-circle bsb-btn-circle">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!" class="btn btn-outline-light bsb-btn-circle bsb-btn-circle">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!" class="btn btn-outline-light bsb-btn-circle bsb-btn-circle">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!" class="btn btn-outline-light bsb-btn-circle bsb-btn-circle">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reddit" viewBox="0 0 16 16">
+                            <path d="M6.167 8a.83.83 0 0 0-.83.83c0 .459.372.84.83.831a.831.831 0 0 0 0-1.661m1.843 3.647c.315 0 1.403-.038 1.976-.611a.23.23 0 0 0 0-.306.213.213 0 0 0-.306 0c-.353.363-1.126.487-1.67.487-.545 0-1.308-.124-1.671-.487a.213.213 0 0 0-.306 0 .213.213 0 0 0 0 .306c.564.563 1.652.61 1.977.61zm.992-2.807c0 .458.373.83.831.83s.83-.381.83-.83a.831.831 0 0 0-1.66 0z" />
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.828-1.165c-.315 0-.602.124-.812.325-.801-.573-1.9-.945-3.121-.993l.534-2.501 1.738.372a.83.83 0 1 0 .83-.869.83.83 0 0 0-.744.468l-1.938-.41a.2.2 0 0 0-.153.028.2.2 0 0 0-.086.134l-.592 2.788c-1.24.038-2.358.41-3.17.992-.21-.2-.496-.324-.81-.324a1.163 1.163 0 0 0-.478 2.224q-.03.17-.029.353c0 1.795 2.091 3.256 4.669 3.256s4.668-1.451 4.668-3.256c0-.114-.01-.238-.029-.353.401-.181.688-.592.688-1.069 0-.65-.525-1.165-1.165-1.165" />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!" class="btn btn-outline-light bsb-btn-circle bsb-btn-circle">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dribbble" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 0C3.584 0 0 3.584 0 8s3.584 8 8 8c4.408 0 8-3.584 8-8s-3.592-8-8-8m5.284 3.688a6.8 6.8 0 0 1 1.545 4.251c-.226-.043-2.482-.503-4.755-.217-.052-.112-.096-.234-.148-.355-.139-.33-.295-.668-.451-.99 2.516-1.023 3.662-2.498 3.81-2.69zM8 1.18c1.735 0 3.323.65 4.53 1.718-.122.174-1.155 1.553-3.584 2.464-1.12-2.056-2.36-3.74-2.551-4A7 7 0 0 1 8 1.18m-2.907.642A43 43 0 0 1 7.627 5.77c-3.193.85-6.013.833-6.317.833a6.87 6.87 0 0 1 3.783-4.78zM1.163 8.01V7.8c.295.01 3.61.053 7.02-.971.199.381.381.772.555 1.162l-.27.078c-3.522 1.137-5.396 4.243-5.553 4.504a6.82 6.82 0 0 1-1.752-4.564zM8 14.837a6.8 6.8 0 0 1-4.19-1.44c.12-.252 1.509-2.924 5.361-4.269.018-.009.026-.009.044-.017a28.3 28.3 0 0 1 1.457 5.18A6.7 6.7 0 0 1 8 14.837m3.81-1.171c-.07-.417-.435-2.412-1.328-4.868 2.143-.338 4.017.217 4.251.295a6.77 6.77 0 0 1-2.924 4.573z" />
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Widgets Link - Bootstrap Brain Component -->
+
+          <section class="py-4 py-md-5 py-xl-7 py-xxl-10">
+            <div class="container">
+              <div class="row gy-4 gy-md-0">
+                <div class="col-6 col-md-3">
+                  <div class="link-wrapper">
+                    <h4 class="mb-3 fw-bold fs-7 text-light">Accessibility</h4>
+                    <ul class="m-0 list-unstyled">
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Accessibility Statement
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          ADA Compliance
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Assistive Technologies
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Accessibility Resources
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Accessibility Standards
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Design Guidelines
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="link-wrapper">
+                    <h4 class="mb-3 fw-bold fs-7 text-light">Store</h4>
+                    <ul class="m-0 list-unstyled">
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Shop Now
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Product Categories
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Special Offers
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          New Releases
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Exclusive Deals
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="link-wrapper">
+                    <h4 class="mb-3 fw-bold fs-7 text-light">Partnerships</h4>
+                    <ul class="m-0 list-unstyled">
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Partners
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Affiliates
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Collaborations
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Strategic Alliances
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="link-wrapper">
+                    <h4 class="mb-3 fw-bold fs-7 text-light">Communities</h4>
+                    <ul class="m-0 list-unstyled">
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Contributions
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Community Engagement
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Donate
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Volunteer Opportunities
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Local Initiatives
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                          Community Partnerships
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Copyright & Links - Bootstrap Brain Component -->
+          <div>
+            <div class="container border-top border-dark pt-4">
+              <div class="row gy-3 align-items-lg-center">
+                <div class="col-12 col-lg-6 order-1 order-lg-0">
+                  <div class="copyright-wrapper d-block mb-1 fs-7 text-light text-start">
+                    &copy; 2024. All Rights Reserved.
+                  </div>
+                  <div class="credit-wrapper d-block text-light fs-8 text-start">
+                    Built by<a href="https://bootstrapbrain.com/" class="link-opacity-0 link-opacity-75-hover link-light text-decoration-none">
+                      BootstrapBrain</a> with <span class="text-primary">&#9829;</span>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="link-wrapper">
+                    <ul class="m-0 list-unstyled d-flex justify-content-centerX justify-content-lg-end gap-2 gap-md-3">
+                      <li>
+                        <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-offset-1 link-light fs-8 d-flex align-items-center pe-2 pe-md-3 bsb-sep bsb-sep-border">
+                          Shipping
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-offset-1 link-light fs-8 d-flex align-items-center pe-2 pe-md-3 bsb-sep bsb-sep-border">
+                          Refund
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-offset-1 link-light fs-8 d-flex align-items-center pe-2 pe-md-3 bsb-sep bsb-sep-border">
+                          Warranty
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-offset-1 link-light fs-8 d-flex align-items-center pe-2 pe-md-3 bsb-sep bsb-sep-border">
+                          Privacy
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-offset-1 link-light fs-8 d-flex align-items-center">
+                          Security
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </footer>
+
+        <!-- End Footer -->
+
+
+        </div>
+           
+
+
+
+
+
+		<!-- BS JS CDN -->
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/
+        bootstrap.bundle.min.js"></script>
+
 
 
 	</body>
